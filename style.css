@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 30px;
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue; /* hover effect */
 }
 
 .stats-card {
@@ -73,3 +80,32 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 1%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(173, 216, 230, 0.7);
+}
+
+.nav-link {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    background-color: #5d92aa;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.nav-link:hover {
+    background-color: #41758a;
+    box-shadow: 0 0 20px lightblue;
+    cursor: pointer;
+}
+
